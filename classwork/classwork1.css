@@ -9,7 +9,7 @@ border: 1px solid;
 }
 .box-home:hover{background-color:pink;
     width: 200px;
-    height: 200px;
+    height: 100px;
     background-color: rgb(244, 147, 212);
     transform: rotate 0;
     animation: rotate 3s  ;
