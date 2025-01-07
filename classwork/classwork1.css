@@ -1,0 +1,33 @@
+.box-home{width: 100px;
+height: 100px;
+background-color: blue;
+transition: width 1s;
+background-color: 1s;
+height: 1s;
+border: 1px solid;
+
+}
+.box-home:hover{background-color:pink;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(244, 147, 212);
+    transform: rotate 0;
+    animation: rotate 3s  ;
+   }
+   @keyframes rotate{
+    from{transform: rotate(180deg);}
+    to{transform: rotate(180deg);}}
+.box-red{
+    width: 100px;
+height: 100px;
+background-color: crimson;
+border-radius: 50px;
+animation: box-redn 3s infinite; 
+animation-direction: alternate;
+
+}
+@keyframes box-red{
+    0%{ margin-left:200px}
+50%{margin-left:200px}
+100%{margin-left: 0;}
+}

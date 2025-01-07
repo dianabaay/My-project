@@ -1,0 +1,22 @@
+h1{border: 2px solid ;
+color: chartreuse;
+width: min-content;
+padding: 10px 20px 30px 40px;
+margin: 90px 30px;}
+img{
+    width: 150px;
+}
+.one{border: 2px solid rgb(11, 11, 11);
+width: fit-content;}
+.coffee{display: flex;
+justify-content: space-evenly;}
+
+p{text-align: center;}
+table{ width: 500px;}
+.div-button{ 
+    grid-template-columns: repeat(4,1fr);
+   
+    grid-template-rows: repeat(2,100px);
+}
+button{ width: 30px;
+    height:30px}

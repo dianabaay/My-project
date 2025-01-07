@@ -1,0 +1,115 @@
+.button{background-color: blueviolet;
+color: azure;
+border: none;
+border-radius: 5px;
+padding: 10px 20px;
+cursor: cell;
+width: 100px;
+height: 40px;
+transition: width 1s;
+background-color: 1s;
+height: 1s;
+}
+.button:hover{
+background-color: aqua;
+width: 150px;
+height: 50px;
+}
+div{display: flex;
+align-items: center;
+border: 1px solid gray;
+border-radius: 10px;
+width: fit-content;
+transition: width 1s;
+}
+ div input{
+    height: 30px;
+    border: none;
+    outline: none;
+}
+div button{border: none;
+background: none;}
+.box{
+    width: 150px;
+    height: 150px;
+    animation: diana;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.box1{width: 20px;
+    height: 20px;
+    background-color: coral;
+    animation: diana;
+    animation-duration:1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+@keyframes diana{
+    0%{background-color: blue;
+        margin-left: 0;
+        border-radius: 0;
+    }
+    50%{background-color: rgb(255, 0, 0);
+    margin-left: 200px;
+    border-radius: 80px;
+}
+     100%{background-color: deeppink;
+margin-left: 200px;
+border-radius: 80px;
+}
+}
+.di{width: 200px;
+height: 200px;
+background-color: blanchedalmond;
+transform: rotate 0;
+animation: rotate 3s infinite ;
+}
+@keyframes rotate{
+from{transform: rotate(0deg);}
+to{transform: rotate(360deg);}
+}
+.ddd{width: 200px;
+    height: 200px;
+    background-color: rgb(255, 153, 0);
+    transform: rotate 0;
+    animation: ddd 3s infinite ;
+    }
+@keyframes ddd{
+    from{transform: rotateY 0;}
+    to{transform: rotateY(360deg);}
+}
+.iii{width: 100px;
+    height: 100px;
+    background-color: rgb(51, 255, 0);
+    transform: rotate 0;
+    animation: iii 3s infinite ;
+    transition: transform 1s ease-in-out ;
+}
+.iii :hover{transform: scale(2);}
+@keyframes iii{
+    from{transform: rotateX 0;}
+    to{transform: rotateX(360deg);}
+}
+.parents{ background-color: blueviolet;
+padding: 40px;
+width: fit-content;
+perspective: 700px;}
+.child{background-color: deepskyblue;
+padding: 40px;
+width: fit-content;
+transition: transform 1s linear;}
+.child:hover{
+    transform: rotateY(180deg);
+}
+.discover{background-color: deeppink;
+width: 80px;
+height: 80px;
+transform:rotateX(30deg);
+perspective: 100px;
+
+}
+@keyframes name{
+   from{transform: rotateX(0);}
+   to{transform: rotateX(30deg);}
+}
